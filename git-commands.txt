@@ -1,0 +1,5 @@
+git status
+git add <file_name>
+
+
+git pull origin <branch name>
