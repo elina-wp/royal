@@ -1,7 +1,8 @@
-git status
-git add <file_name>
-git commit -m "Message"
-git push origin <branch name>
-git checkout -b <branch_name>
-git pull origin <branch name>
+git status => Status of Git
+git add <file_name> => Adding Files
+git commit -m "Message" => Adding commits for files
+git push origin <branch name> => Pushing files in Remote
+git checkout -b <branch_name> => Creating New Branch 
+git checkout b <branch_name> => Switching Branch
+git pull origin <branch name> => Pull files from remote branch
 
