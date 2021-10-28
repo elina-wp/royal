@@ -1,3 +1,4 @@
+
 git status => Status of Git
 git add <file_name> => Adding Files
 git commit -m "Message" => Adding commits for files
@@ -6,3 +7,17 @@ git checkout -b <branch_name> => Creating New Branch
 git checkout b <branch_name> => Switching Branch
 git pull origin <branch name> => Pull files from remote branch
 
+
+
+git pull --rebase origin master
+if conflict arises
+	git add fileschanges
+	git rebase --continue
+	git push -f origin branchname
+
+
+For squash
+git rebase -i HEAD~3
+esc :wq enter
+git pull --rebase origin master
+git push -f origin branchname
