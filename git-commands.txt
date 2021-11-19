@@ -7,7 +7,7 @@ git checkout -b <branch_name> => Creating New Branch
 git checkout b <branch_name> => Switching Branch
 git pull origin <branch name> => Pull files from remote branch
 
-
+git fetch --all
 
 git pull --rebase origin master
 if conflict arises
